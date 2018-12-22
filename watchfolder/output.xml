@@ -1,0 +1,586 @@
+<xmeml version="4">
+  <sequence id="sequence-1">
+    <duration>100000</duration>
+    <rate>
+      <timebase>25</timebase>
+      <ntsc>FALSE</ntsc>
+    </rate>
+    <name>test</name>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <codec>
+              <name>Apple ProRes 422</name>
+              <appspecificdata>
+                <appname>Final Cut Pro</appname>
+                <appmanufacturer>Apple Inc.</appmanufacturer>
+                <appversion>7.0</appversion>
+                <data>
+                  <qtcodec>
+                    <codecname>Apple ProRes 422</codecname>
+                    <codectypename>Apple ProRes 422</codectypename>
+                    <codectypecode>apcn</codectypecode>
+                    <codecvendorcode>appl</codecvendorcode>
+                    <spatialquality>1024</spatialquality>
+                    <temporalquality>0</temporalquality>
+                    <keyframerate>0</keyframerate>
+                    <datarate>0</datarate>
+                  </qtcodec>
+                </data>
+              </appspecificdata>
+            </codec>
+            <width>1920</width>
+            <height>1080</height>
+            <anamorphic>FALSE</anamorphic>
+            <pixelaspectratio>square</pixelaspectratio>
+            <fielddominance>none</fielddominance>
+            <colordepth>24</colordepth>
+          </samplecharacteristics>
+        </format>
+        <track MZ.TrackTargeted="1" TL.SQTrackExpanded="0" TL.SQTrackExpandedHeight="25" TL.SQTrackShy="0">
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <clipitem id="clipitem-1">
+            <masterclipid>masterclip-1</masterclipid>
+            <name>1-I'm.jpg</name>
+            <enabled>TRUE</enabled>
+            <duration>1080000</duration>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>10</end>
+            <in>90000</in>
+            <out>90010</out>
+            <pproTicksIn>914457600000000</pproTicksIn>
+            <pproTicksOut>914559206400000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-1">
+              <name>1-I'm.jpg</name>
+              <pathurl>watchfolder/img/1-I'm.jpg</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <timecode>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00;00;00;00</string>
+                <frame>0</frame>
+                <displayformat>DF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>180</width>
+                    <height>180</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>600</value>
+                </parameter>
+              </effect>
+            </filter>
+            <logginginfo>
+              <description />
+              <scene />
+              <shottake />
+              <lognote />
+              <good />
+              <originalvideofilename />
+              <originalaudiofilename />
+            </logginginfo>
+            <colorinfo>
+              <lut />
+              <lut1 />
+              <asc_sop />
+              <asc_sat />
+              <lut2 />
+            </colorinfo>
+            <labels>
+              <label2>Lavender</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-2">
+            <masterclipid>masterclip-2</masterclipid>
+            <name>2-afraid.jpg</name>
+            <enabled>TRUE</enabled>
+            <duration>1080000</duration>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>10</start>
+            <end>20</end>
+            <in>90000</in>
+            <out>90020</out>
+            <pproTicksIn>914559206400000</pproTicksIn>
+            <pproTicksOut>914660812800000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-2">
+              <name>2-afraid.jpg</name>
+              <pathurl>watchfolder/img/2-afraid.jpg</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <timecode>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00;00;00;00</string>
+                <frame>0</frame>
+                <displayformat>DF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>800</width>
+                    <height>600</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>180</value>
+                </parameter>
+              </effect>
+            </filter>
+            <logginginfo>
+              <description />
+              <scene />
+              <shottake />
+              <lognote />
+              <good />
+              <originalvideofilename />
+              <originalaudiofilename />
+            </logginginfo>
+            <colorinfo>
+              <lut />
+              <lut1 />
+              <asc_sop />
+              <asc_sat />
+              <lut2 />
+            </colorinfo>
+            <labels>
+              <label2>Lavender</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-3">
+            <masterclipid>masterclip-3</masterclipid>
+            <name>3-I.png</name>
+            <enabled>TRUE</enabled>
+            <duration>1080000</duration>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>20</start>
+            <end>30</end>
+            <in>90000</in>
+            <out>90030</out>
+            <pproTicksIn>914660812800000</pproTicksIn>
+            <pproTicksOut>914762419200000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-3">
+              <name>3-I.png</name>
+              <pathurl>watchfolder/img/3-I.png</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <timecode>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00;00;00;00</string>
+                <frame>0</frame>
+                <displayformat>DF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>96</width>
+                    <height>203</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>532</value>
+                </parameter>
+              </effect>
+            </filter>
+            <logginginfo>
+              <description />
+              <scene />
+              <shottake />
+              <lognote />
+              <good />
+              <originalvideofilename />
+              <originalaudiofilename />
+            </logginginfo>
+            <colorinfo>
+              <lut />
+              <lut1 />
+              <asc_sop />
+              <asc_sat />
+              <lut2 />
+            </colorinfo>
+            <labels>
+              <label2>Lavender</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-4">
+            <masterclipid>masterclip-4</masterclipid>
+            <name>4-can't.png</name>
+            <enabled>TRUE</enabled>
+            <duration>1080000</duration>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>30</start>
+            <end>40</end>
+            <in>90000</in>
+            <out>90040</out>
+            <pproTicksIn>914762419200000</pproTicksIn>
+            <pproTicksOut>914864025600000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-4">
+              <name>4-can't.png</name>
+              <pathurl>watchfolder/img/4-can't.png</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <timecode>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00;00;00;00</string>
+                <frame>0</frame>
+                <displayformat>DF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>232</width>
+                    <height>218</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>495</value>
+                </parameter>
+              </effect>
+            </filter>
+            <logginginfo>
+              <description />
+              <scene />
+              <shottake />
+              <lognote />
+              <good />
+              <originalvideofilename />
+              <originalaudiofilename />
+            </logginginfo>
+            <colorinfo>
+              <lut />
+              <lut1 />
+              <asc_sop />
+              <asc_sat />
+              <lut2 />
+            </colorinfo>
+            <labels>
+              <label2>Lavender</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-5">
+            <masterclipid>masterclip-5</masterclipid>
+            <name>5-do.jpg</name>
+            <enabled>TRUE</enabled>
+            <duration>1080000</duration>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>40</start>
+            <end>50</end>
+            <in>90000</in>
+            <out>90050</out>
+            <pproTicksIn>914864025600000</pproTicksIn>
+            <pproTicksOut>914965632000000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-5">
+              <name>5-do.jpg</name>
+              <pathurl>watchfolder/img/5-do.jpg</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <timecode>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00;00;00;00</string>
+                <frame>0</frame>
+                <displayformat>DF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>640</width>
+                    <height>880</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>122</value>
+                </parameter>
+              </effect>
+            </filter>
+            <logginginfo>
+              <description />
+              <scene />
+              <shottake />
+              <lognote />
+              <good />
+              <originalvideofilename />
+              <originalaudiofilename />
+            </logginginfo>
+            <colorinfo>
+              <lut />
+              <lut1 />
+              <asc_sop />
+              <asc_sat />
+              <lut2 />
+            </colorinfo>
+            <labels>
+              <label2>Lavender</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-6">
+            <masterclipid>masterclip-6</masterclipid>
+            <name>6-that.png</name>
+            <enabled>TRUE</enabled>
+            <duration>1080000</duration>
+            <rate>
+              <timebase>25</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>50</start>
+            <end>60</end>
+            <in>90000</in>
+            <out>90060</out>
+            <pproTicksIn>914965632000000</pproTicksIn>
+            <pproTicksOut>915067238400000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-6">
+              <name>6-that.png</name>
+              <pathurl>watchfolder/img/6-that.png</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <timecode>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00;00;00;00</string>
+                <frame>0</frame>
+                <displayformat>DF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>402</width>
+                    <height>399</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>270</value>
+                </parameter>
+              </effect>
+            </filter>
+            <logginginfo>
+              <description />
+              <scene />
+              <shottake />
+              <lognote />
+              <good />
+              <originalvideofilename />
+              <originalaudiofilename />
+            </logginginfo>
+            <colorinfo>
+              <lut />
+              <lut1 />
+              <asc_sop />
+              <asc_sat />
+              <lut2 />
+            </colorinfo>
+            <labels>
+              <label2>Lavender</label2>
+            </labels>
+          </clipitem>
+        </track>
+      </video>
+    </media>
+    <timecode>
+      <rate>
+        <timebase>25</timebase>
+        <ntsc>FALSE</ntsc>
+      </rate>
+      <string>00:00:00:00</string>
+      <frame>0</frame>
+      <displayformat>NDF</displayformat>
+    </timecode>
+    <labels>
+      <label2>Forest</label2>
+    </labels>
+  </sequence>
+</xmeml>

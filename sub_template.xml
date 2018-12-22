@@ -1,0 +1,87 @@
+<clipitem id="clipitem-***CLIP_NUMBER***">
+  <masterclipid>masterclip-***CLIP_NUMBER***</masterclipid>
+  <name>***CLIP_NAME***</name>
+  <enabled>TRUE</enabled>
+  <duration>1080000</duration>
+  <rate>
+    <timebase>25</timebase>
+    <ntsc>FALSE</ntsc>
+  </rate>
+  <start>***START_IN_SEQUENCE***</start>
+  <end>***END_IN_SEQUENCE***</end>
+  <in>90000</in>
+  <out>***90000 + CLIP_LENGTH***</out>
+  <pproTicksIn>*** ((START_IN_SEQUENCE/25)+3600)*254016000000 ***</pproTicksIn>
+  <pproTicksOut>*** ((END_IN_SEQUENCE/25)+3600)*254016000000 ***</pproTicksOut>
+  <alphatype>none</alphatype>
+  <pixelaspectratio>square</pixelaspectratio>
+  <anamorphic>FALSE</anamorphic>
+  <file id="file-***CLIP_NUMBER***">
+    <name>***FILE_NAME***.png</name>
+    <pathurl>***FILE_LOCATION***</pathurl>
+    <rate>
+      <timebase>30</timebase>
+      <ntsc>TRUE</ntsc>
+    </rate>
+    <timecode>
+      <rate>
+        <timebase>30</timebase>
+        <ntsc>TRUE</ntsc>
+      </rate>
+      <string>00;00;00;00</string>
+      <frame>0</frame>
+      <displayformat>DF</displayformat>
+    </timecode>
+    <media>
+      <video>
+        <samplecharacteristics>
+          <rate>
+            <timebase>30</timebase>
+            <ntsc>TRUE</ntsc>
+          </rate>
+          <width>***FILE_WIDTH***</width>
+          <height>***FILE_HEIGHT***</height>
+          <anamorphic>FALSE</anamorphic>
+          <pixelaspectratio>square</pixelaspectratio>
+          <fielddominance>none</fielddominance>
+        </samplecharacteristics>
+      </video>
+    </media>
+  </file>
+  <filter>
+    <effect>
+      <name>Basic Motion</name>
+      <effectid>basic</effectid>
+      <effectcategory>motion</effectcategory>
+      <effecttype>motion</effecttype>
+      <mediatype>video</mediatype>
+      <pproBypass>false</pproBypass>
+      <parameter authoringApp="PremierePro">
+        <parameterid>scale</parameterid>
+        <name>Scale</name>
+        <valuemin>0</valuemin>
+        <valuemax>1000</valuemax>
+        <value>***SCALE_VALUE***</value>
+      </parameter>
+    </effect>
+  </filter>
+  <logginginfo>
+    <description></description>
+    <scene></scene>
+    <shottake></shottake>
+    <lognote></lognote>
+    <good></good>
+    <originalvideofilename></originalvideofilename>
+    <originalaudiofilename></originalaudiofilename>
+  </logginginfo>
+  <colorinfo>
+    <lut></lut>
+    <lut1></lut1>
+    <asc_sop></asc_sop>
+    <asc_sat></asc_sat>
+    <lut2></lut2>
+  </colorinfo>
+  <labels>
+    <label2>Lavender</label2>
+  </labels>
+</clipitem>
